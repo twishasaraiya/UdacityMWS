@@ -11,13 +11,13 @@ Hint! You'll probably want to start by styling:
 I've left some boilerplate below for you.
 
 */
-
+@import url(http://weloveiconfonts.com/api/?family=zocial);
 body {
-
+    margin: auto;
+    width: 50%;
 }
 
 article {
-    width: 50em;
 }
 
 h1 {
@@ -26,4 +26,11 @@ h1 {
 
 img {
     max-width : 100%;
+}
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  margin: 1em;
+  font-size: 1em;
+  decoration: none;
 }
